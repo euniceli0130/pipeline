@@ -41,13 +41,13 @@ python {path}\main.py {startDate} {endDate} {send_to} {whichMode Backfill or Dai
 
 1. BACKFILL: in urrent database, we already have results for 2018-5-15 to 2018-6-15 and two other dimensional table (up to date) by running:
 
-   python "C:\Users\Jay Yao\Desktop\VeriskETL\main.py" "2018-5-15" "2018-6-15" "euniceli0130@gmail.com" "Backfill" True
+   python {path} "2018-5-15" "2018-6-15" "euniceli0130@gmail.com" "Backfill" True
 
 This will do ETL + send email with excel attachment.
 
 2. DAILY: one can run
 
-  python "C:\Users\Jay Yao\Desktop\VeriskETL\main.py" "" "" "euniceli0130@gmail.com" "Daily" False
+  python {path} "" "" "euniceli0130@gmail.com" "Daily" False
 
 This will do ETL + send email notifying the task is done.
 
