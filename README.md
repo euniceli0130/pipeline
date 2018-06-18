@@ -47,9 +47,9 @@ This will do ETL + send email with excel attachment.
 
 2. DAILY: one can run
 
-  python {path} "" "" "euniceli0130@gmail.com" "Daily" False
-
-This will do ETL + send email notifying the task is done.
+  python {path} "" "" "euniceli0130@gmail.com" "Daily" False 
+  
+  This will do ETL + send email notifying the task is done.
 
 Some efforts:
 
