@@ -1,0 +1,30 @@
+[
+  {"CategoryTable":[
+    {"columnName": "'id'", "typeName": "Integer, "},
+    {"columnName": "'title'", "typeName": "TEXT, "},
+    {"columnName": "'link'", "typeName": "TEXT, "},
+    {"columnName": "'description'", "typeName": "TEXT, "},
+    {"columnName": "'layers'", "typeName": "TEXT, "},
+    {"primaryKey": "'id'"}]
+  },
+  {"SourceTable":[
+    {"columnName": "'id'", "typeName": "TEXT, "},
+    {"columnName": "'title'", "typeName": "TEXT, "},
+    {"columnName": "'source'", "typeName": "TEXT, "},
+    {"columnName": "'link'", "typeName": "TEXT, "},
+    {"primaryKey": "'id'"}]
+  },
+  {"EventTable":[
+    {"columnName": "'id'", "typeName": "TEXT, "},
+    {"columnName": "'title'", "typeName": "TEXT, "},
+    {"columnName": "'description'", "typeName": "TEXT, "},
+    {"columnName": "'link'", "typeName": "TEXT, "},
+    {"columnName": "'categoryID'", "typeName": "TEXT, "},
+    {"columnName": "'sourceID'", "typeName": "TEXT, "},
+    {"columnName": "'sourceURL'", "typeName": "TEXT, "},
+    {"columnName": "'date'", "typeName": "TEXT, "},
+    {"columnName": "'geoType'", "typeName": "TEXT, "},
+    {"columnName": "'geoCoordinates'", "typeName": "TEXT, "},
+    {"primaryKey": "'id', 'categoryID', 'sourceID', 'date', 'geoType', 'geoCoordinates'"}]
+  }
+]
