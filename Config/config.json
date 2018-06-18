@@ -1,0 +1,29 @@
+{
+    "emailInfo":{
+        "smtp": "smtp.gmail.com",
+        "portal": 587,
+        "emailAdd":"euniceli0130@gmail.com",
+        "password":"YYjjNN05",
+        "subject": "EONET TASK UPDATE",
+        "bodyWithAttachment": "Hi, attached is a backfill. Eunice",
+        "bodyWithoutAttachment": "Hi, today's EONET task is finished. Eunice"
+    },
+    "base_url" : "https://eonet.sci.gsfc.nasa.gov/api/v2.1/",
+    "queryTypes" : ["events", "sources", "categories", "layers"],
+    "databaseInfo":{
+        "name": "eonetDataBase"
+    },
+    "events" : ["id", "title", "description", "link", "categories", "sources", "geometries"],
+    "categories": ["id", "title", "link", "description", "layers"],
+    "sources": ["id", "title", "link", "source"],
+    "subschemas": {
+        "categories": ["id", "title"],
+        "sources": ["id", "url"],
+        "geometries": ["date", "type", "coordinates"]
+    },
+    "eventschema": ["id", "title", "description", "link", "categoryID", "categoryTitle", "sourceID", "sourceURL",
+                     "geoDate", "geoType", "geoCoordinates"],
+    "filter":{
+        "categoryID": ["8", "10", "14"]
+    }
+}
